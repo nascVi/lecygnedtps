@@ -1,7 +1,7 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
+import product1 from "./images/details-1.jpeg";
+import product2 from "./images/details-2.jpeg";
+import product3 from "./images/details-3.jpeg";
+import product4 from "./images/details-4.jpeg";
 import img1 from "./images/room-1.jpeg";
 import img2 from "./images/room-2.jpeg";
 import img3 from "./images/room-3.jpeg";
@@ -52,21 +52,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -109,21 +109,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -166,21 +166,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -223,21 +223,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -280,21 +280,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -337,21 +337,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -394,21 +394,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -451,21 +451,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -508,21 +508,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -565,21 +565,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -622,21 +622,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -679,21 +679,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }
@@ -706,7 +706,7 @@ export default [
     },
     fields: {
       name: "presidential",
-      slug: "presidential-room",
+      slug: "presidential-product",
       type: "presidential",
       price: 600,
       size: 1000,
@@ -729,28 +729,28 @@ export default [
         {
           fields: {
             file: {
-              url: room1
+              url: product1
             }
           }
         },
         {
           fields: {
             file: {
-              url: room2
+              url: product2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: product3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: product4
             }
           }
         }

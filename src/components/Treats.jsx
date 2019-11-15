@@ -22,7 +22,7 @@ export default class Treats extends Component {
             },
             {
                 icon:<GiSproutDisc/>,
-                title:'Action in Le Grand Paris',
+        title:'Action in the metropole',
                 info:'Lorem ipsum....'
             }
         ]
