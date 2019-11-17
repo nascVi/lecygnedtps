@@ -47,7 +47,7 @@ class ProductProvider extends Component {
             <ProductContext.Provider 
             value={{ 
                 ...this.state,
-                getProduct: this.getProduct, 
+                getProduct: this.getProduct,
              }}
             >
               {this.props.children}
@@ -56,9 +56,16 @@ class ProductProvider extends Component {
     }
 }
 
-
-
-
 const ProductConsumer = ProductContext.Consumer;
+
+export function withProductConsumer(Component) {
+    return function ConsumerWrapper(props){
+        return (
+        <ProductConsumer>
+            {value => <Component {...props} context={value}/>}
+        </ProductConsumer>
+        );
+    }
+}
 
 export { ProductProvider, ProductConsumer, ProductContext };
