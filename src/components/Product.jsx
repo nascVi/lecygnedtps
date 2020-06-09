@@ -2,26 +2,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import defaultImg from "../images/room-1.jpeg";
 import PropTypes from 'prop-types';
+import { memo } from 'react';
 
-export default function Product({ product }) {
+const Product = memo(({ product }) => {
+    const { name, slug, images, price } = product;
 
-    const {name, slug, images, price } = product;
     return (
         <article className="product">
            <div className="img-container">
             <img src={images[0] || defaultImg} alt="first go" />
                <div className="price-top">
-                    <h6>${price}</h6>
+                    <h6>€{price}</h6>
                     <p>a dice</p>
                </div>
             <Link to={`/products/${slug}`} className="btn-primary product-link">
-                accoianances
+                accoinances
             </Link>
            </div>
-           <p className="product-info">{name}The tea bag comes with the grace of a vertue...*</p>
+           <p className="product-info">{product.name}The tea bag comes with the grace of a vertue...*</p>
         </article>
     );
-}
+});
 
 Product.propTypes = {
     product: PropTypes.shape({
@@ -31,3 +32,5 @@ Product.propTypes = {
         price:PropTypes.number.isRequired
     })
 }
+
+export default Product

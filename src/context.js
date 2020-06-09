@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import Client from './Contentful';
 
 const ProductContext = React.createContext();
-// <ProductContext.Provider value={hello}
 
 export default class ProductProvider extends Component {
   state = {
@@ -26,7 +25,7 @@ getData = async () => {
     try {
         let response = await Client.getEntries({
             content_type: "productsandtreats",
-            // order: "sys.createdAt"
+            order: "sys.createdAt",
             order:"-fields.price"
         });
 let products = this.formatData(response.items);
@@ -144,6 +143,8 @@ price = parseInt(price);
 }
 
 const ProductConsumer = ProductContext.Consumer;
+
+export { ProductProvider, ProductConsumer, ProductContext };
 
 export function withProductConsumer(Component) {
     return function ConsumerWrapper(props){
